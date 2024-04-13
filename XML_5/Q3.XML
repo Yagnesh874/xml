@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q3.XSL"?>
+
+<books>
+    <book title="The Lord of the Rings">
+        <author>Aravind Adiga</author>
+        <year>1954</year>
+        <publisher>Allen AND Unwin</publisher>
+    </book>
+    <book title="Pride and Prejudice">
+        <author>Perumal Murugan</author>
+        <year>1813</year>
+        <publisher>T. Egerton</publisher>
+    </book>
+    <book title="To Kill a Mockingbird">
+        <author>Shobha De</author>
+        <year>1960</year>
+        <publisher>J. B. Lippincott AND Co.</publisher>
+    </book>
+    <book title="One Hundred Years of Solitude">
+        <author>Arundhati Roy</author>
+        <year>1967</year>
+        <publisher>Editorial Sudamericana</publisher>
+    </book>
+    <book title="The Great Gatsby">
+        <author>Vikram Chandra</author>
+        <year>1925</year>
+        <publisher>Charles Scribner's Sons</publisher>
+    </book>
+</books>
+  

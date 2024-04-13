@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q9.XSL"?>
+
+<students>
+    <student>
+        <roll_no>83</roll_no>
+        <name>Trushal</name>
+        <marks>85</marks>
+        <rank>2</rank>
+        <result>dist</result>
+    </student>
+    <student>
+        <roll_no>84</roll_no>
+        <name>Pujan</name>
+        <marks>68</marks>
+        <rank>7</rank>
+        <result>first</result>
+    </student>
+</students>

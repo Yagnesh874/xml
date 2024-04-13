@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q4.XSL"?>
+
+<students>
+    <student>
+        <name>Hetvi Patel</name>
+        <personalInfo>
+            <address>Nehrunager ,Ahmedabad</address>
+            <birthdate>1990-12-31</birthdate>
+            <gender>Female</gender>
+            <mobileNo>+916534589908</mobileNo>
+        </personalInfo>
+        <result>
+            <total>800</total>
+            <percentage>88.89</percentage>
+            <grade>A</grade>
+        </result>
+    </student>
+    <student>
+        <name>John Don</name>
+        <personalInfo>
+            <address>Nehrunager ,Ahmedabad</address>
+            <birthdate>1995-05-20</birthdate>
+            <gender>Male</gender>
+            <mobileNo>+91653458998</mobileNo>
+        </personalInfo>
+        <result>
+            <total>750</total>
+            <percentage>82.50</percentage>
+            <grade>B</grade>
+        </result>
+    </student>
+    <student>
+        <name>Parshvi Saha</name>
+        <personalInfo>
+            <address>Nehrunager ,Ahmedabad</address>
+            <birthdate>1992-08-14</birthdate>
+            <gender>Female</gender>
+            <mobileNo>+916536589908</mobileNo>
+        </personalInfo>
+        <result>
+            <total>900</total>
+            <percentage>97.87</percentage>
+            <grade>A+</grade>
+        </result>
+    </student>
+</students>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q1.XSL"?>
+
+<emp_info>
+    <employee emp_id="1">
+        <firstname>Pujan</firstname>
+        <lastname>Saraniya</lastname>
+    </employee>
+    <employee emp_id="2">
+        <firstname>Pujan</firstname>
+        <lastname>Patel</lastname>
+    </employee>
+</emp_info>

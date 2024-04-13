@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q7.XSL"?>
+
+<emails>
+    <email>
+        <roll_no>84</roll_no>
+        <name>Tirth Patel</name>
+        <marks>95</marks>
+        <rank>2</rank>
+    </email>
+    <email>
+        <roll_no>85</roll_no>
+        <name>Harshil Patel</name>
+        <marks>80</marks>
+        <rank>7</rank>
+    </email>
+    <email>
+        <roll_no>86</roll_no>
+        <name>Prit Patel</name>
+        <marks>72</marks>
+        <rank>12</rank>
+    </email>
+</emails>

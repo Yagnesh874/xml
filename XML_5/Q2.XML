@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q2.XSL"?>
+
+<orders>
+    <orderDetail>
+        <orderNumber>11455</orderNumber>
+        <orderDate>2024-02-13</orderDate>
+        <orderAmount>150.00</orderAmount>
+        <items>
+            <item>
+                <itemName>Headphone</itemName>
+                <itemPrice>50.00</itemPrice>
+                <quantity>2</quantity>
+            </item>
+            <item>
+                <itemName>Charger</itemName>
+                <itemPrice>25.00</itemPrice>
+                <quantity>1</quantity>
+            </item>
+        </items>
+    </orderDetail>
+    <orderDetail>
+        <orderNumber>552211</orderNumber>
+        <orderDate>2024-02-10</orderDate>
+        <orderAmount>75.00</orderAmount>
+        <items>
+            <item>
+                <itemName>Book</itemName>
+                <itemPrice>20.00</itemPrice>
+                <quantity>3</quantity>
+            </item>
+            <item>
+                <itemName>Pen</itemName>
+                <itemPrice>5.00</itemPrice>
+                <quantity>1</quantity>
+            </item>
+        </items>
+    </orderDetail>
+</orders>

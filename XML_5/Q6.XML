@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q6.XSL"?>
+
+<students>
+    <student Name="Pujan" ID="84">
+        <plan>
+            <course>XML</course>
+            <course>DS</course>
+            <course>JAVA</course>
+        </plan>
+    </student>
+    <student Name="Trushal" ID="83">
+        <plan>
+            <course>English</course>
+            <course>AI</course>
+            <course>LSS</course>
+        </plan>
+    </student>
+</students>
