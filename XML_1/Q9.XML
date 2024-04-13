@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Letter>
+    <contact type="manager">
+        <name>Pujan Saraniya</name>
+        <address>Navrangpura,Ahmedabad</address>
+        <city>Ahmedabad</city>
+        <pin>380009</pin>
+        <state>Gujarat</state>
+        <flag gender="male"/>
+    </contact>
+    <salutation>Dear Sir,</salutation>
+    <paragraph>Hello From Pujan </paragraph>
+    <closing>Sincerely,</closing>
+    <signature>Pujan Saraniya</signature>
+</Letter>

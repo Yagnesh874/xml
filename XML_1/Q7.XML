@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Email>
+    <from>pujansaraniya@personal.com</from>
+    <to>pujansaraniya@icloud.com</to>
+    <content>
+        <person>Pujan Saraniya</person>
+        <exercises>
+            <exercise>
+                <topic>Test Massage</topic>
+                <description>Sending Message To Personal ID</description>
+            </exercise>
+        </exercises>
+        <course>BCA</course>
+    </content>
+</Email>

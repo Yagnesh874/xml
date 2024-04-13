@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Student>
+    <StudentName>Pujan Saraniya</StudentName>
+    <PersonalInfo>
+        <Address>Navrangpura,Ahmedabad</Address>
+        <Birthdate>2004-09-16</Birthdate>
+        <Gender>Male</Gender>
+        <MobileNo>+9193123453208</MobileNo>
+    </PersonalInfo>
+    <Result>
+        <Total>450</Total>
+        <Percentage>90</Percentage>
+        <Grade>A</Grade>
+    </Result>
+</Student>

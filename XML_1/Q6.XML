@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Student>
+    <Name>
+        <fname>Pujan</fname>
+        <lname>Saraniya</lname>
+    </Name>
+    <ID>4899</ID>
+    <Plan year="2024">
+        <course>
+            <name>Bachelor of Computer Applications</name>
+            <shortName>BCA</shortName>
+            <record>
+                <Grade>A</Grade>
+                <date>2024-02-13</date>
+            </record>
+        </course>
+    </Plan>
+</Student>
