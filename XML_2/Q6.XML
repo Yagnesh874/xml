@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Student SYSTEM "Q6.DTD">
+<Student>
+    <Name>
+        <fname>Pujan</fname>
+        <lname>Saraniya</lname>
+    </Name>
+    <ID>4899</ID>
+    <Plan year="2024">
+        <courses>
+            <course>
+                <name>Bachelor of Computer Applications</name>
+                <shortName>BCA</shortName>
+                <record>
+                    <Grade>A</Grade>
+                    <date>2024-02-13</date>
+                </record>
+            </course>
+            <course>
+                <name>Master of Computer Applications</name>
+                <shortName>MCA</shortName>
+                <record>
+                    <Grade>A</Grade>
+                    <date>2028-03-11</date>
+                </record>
+            </course>
+        </courses>
+    </Plan>
+</Student>

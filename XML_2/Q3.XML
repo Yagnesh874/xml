@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE OrderDetail SYSTEM "Q3.DTD">
+<OrderDetail OrderNumber="44889" OrderDate="2024-02-13">
+    <OrderRate>10</OrderRate>
+    <OrderAmount>100</OrderAmount>
+    <ItemPrice>50</ItemPrice>
+    <ItemName>Book</ItemName>
+    <Quantity>2</Quantity>
+    <ItemPrice>20</ItemPrice>
+    <ItemName>Pen</ItemName>
+    <Quantity>5</Quantity>
+</OrderDetail>

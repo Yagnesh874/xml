@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Contacts SYSTEM "Q10.DTD">
+<Contacts>
+    <contact id="1">
+        <name>Pujan Saraniya</name>
+        <email>pujansaraniya@gmail.com</email>
+        <contact_no id="1" type="personal">+919316534408</contact_no>
+        <contact_father refid="1">Anilbhai Saraniya</contact_father>
+    </contact>
+</Contacts>

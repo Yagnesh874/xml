@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Student SYSTEM "Q4.DTD">
+<Student>
+    <StudentName>Pujan Saraniya</StudentName>
+    <PersonalInfo>
+        <Address>Nehrunager , Ahmedabad</Address>
+        <Birthdate>2004-09-16</Birthdate>
+        <Gender>Male</Gender>
+        <MobileNo>+919316534408</MobileNo>
+    </PersonalInfo>
+    <Result>
+        <Total>450</Total>
+        <Percentage>90</Percentage>
+        <Grade>First</Grade>
+    </Result>
+</Student>

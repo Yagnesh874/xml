@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Books SYSTEM "Q5.DTD">
+<Books>
+    <book title="XML">
+        <author>IBM</author>
+        <year>2023</year>
+        <publisher>Juggernaut</publisher>
+    </book>
+</Books>

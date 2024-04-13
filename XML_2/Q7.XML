@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Email SYSTEM "Q7.DTD">
+<Email>
+    <from>pujansaraniya@personal.com</from>
+    <to>pujansaraniya@icloud.com</to>
+    <content>
+        <person>Pujan Saraniay</person>
+        <exercises>
+            <exercise>
+                <topic>IOT</topic>
+                <description>IOT - Information Of Technology</description>
+            </exercise>
+            <exercise>
+                <topic>AI</topic>
+                <description>Artifical Inteligance</description>
+            </exercise>
+        </exercises>
+        <course>Bachelor of Computer Applications</course>
+    </content>
+</Email>

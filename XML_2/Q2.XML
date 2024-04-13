@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Email SYSTEM "Q2.DTD">
+<Email>
+    <message from="pujansaraniya@personal.com" to="pujansaraniya@icloud.com" subject="Test Message">
+        Hello From Pujan.
+    </message>
+</Email>

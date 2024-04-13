@@ -1,0 +1,11 @@
+<!ELEMENT Contacts (contact+)>
+<!ELEMENT contact ( name, email, contact_no, contact_father)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contact_no (#PCDATA)>
+<!ELEMENT contact_father (#PCDATA)>
+<!ATTLIST contact_no
+          id ID #REQUIRED
+          type (home | office | personal) #IMPLIED>
+<!ATTLIST contact_father
+          refid IDREF #REQUIRED>
