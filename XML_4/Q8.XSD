@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Vendors">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Vendor" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string" />
+                            <xs:element name="PersonalInfo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="PrimaryAddress" type="xs:string" />
+                                        <xs:element name="SecondaryAddress" type="xs:string" minOccurs="0" />
+                                        <xs:element name="Birthdate" type="xs:date" />
+                                        <xs:element name="Gender">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Male" />
+                                                    <xs:enumeration value="Female" />
+                                                    <xs:enumeration value="Other" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="Pincode" type="xs:positiveInteger" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

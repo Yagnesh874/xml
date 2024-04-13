@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pujan:schema xmlns:Pujan="http://www.w3.org/2001/XMLSchema">
+    <Pujan:element name="Employees">
+        <Pujan:complexType>
+            <Pujan:sequence>
+                <Pujan:element name="Employee" maxOccurs="unbounded">
+                    <Pujan:complexType>
+                        <Pujan:sequence>
+                            <Pujan:element name="EmployeeNumber" type="Pujan:string" />
+                            <Pujan:element name="Name" type="Pujan:string" />
+                            <Pujan:element name="Designation" type="Pujan:string" />
+                            <Pujan:element name="Salary" type="Pujan:decimal" />
+                        </Pujan:sequence>
+                    </Pujan:complexType>
+                </Pujan:element>
+            </Pujan:sequence>
+        </Pujan:complexType>
+    </Pujan:element>
+</Pujan:schema>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pujan:schema xmlns:Pujan="http://www.w3.org/2001/XMLSchema">
+  <Pujan:element name="Items">
+    <Pujan:complexType>
+      <Pujan:sequence>
+        <Pujan:element name="Item" maxOccurs="unbounded">
+          <Pujan:complexType>
+            <Pujan:sequence>
+              <Pujan:element name="Name" type="Pujan:string" />
+              <Pujan:element name="Category">
+                <Pujan:simpleType>
+                  <Pujan:restriction base="Pujan:string">
+                    <Pujan:enumeration value="Chips" />
+                    <Pujan:enumeration value="Biscuits" />
+                    <Pujan:enumeration value="Salad" />
+                    <Pujan:enumeration value="Bread" />
+                  </Pujan:restriction>
+                </Pujan:simpleType>
+              </Pujan:element>
+              <Pujan:element name="CompanyInfo">
+                <Pujan:complexType>
+                  <Pujan:sequence>
+                    <Pujan:element name="PhoneNo" type="Pujan:string" />
+                    <Pujan:element name="Address" type="Pujan:string" />
+                  </Pujan:sequence>
+                </Pujan:complexType>
+              </Pujan:element>
+            </Pujan:sequence>
+          </Pujan:complexType>
+        </Pujan:element>
+      </Pujan:sequence>
+    </Pujan:complexType>
+  </Pujan:element>
+</Pujan:schema>

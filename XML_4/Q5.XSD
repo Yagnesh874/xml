@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pujan:schema xmlns:Pujan="http://www.w3.org/2001/XMLSchema">
+    <Pujan:element name="Salespeople">
+        <Pujan:complexType>
+            <Pujan:sequence>
+                <Pujan:element name="Salesperson" maxOccurs="unbounded">
+                    <Pujan:complexType>
+                        <Pujan:sequence>
+                            <Pujan:element name="Name" type="Pujan:string" />
+                            <Pujan:element name="BusinessInfo">
+                                <Pujan:complexType>
+                                    <Pujan:sequence>
+                                        <Pujan:element name="Company" type="Pujan:string" />
+                                        <Pujan:element name="Department">
+                                            <Pujan:simpleType>
+                                                <Pujan:restriction base="Pujan:string">
+                                                    <Pujan:enumeration value="Sales" />
+                                                    <Pujan:enumeration value="Financial" />
+                                                    <Pujan:enumeration value="Operation" />
+                                                    <Pujan:enumeration value="Database" />
+                                                </Pujan:restriction>
+                                            </Pujan:simpleType>
+                                        </Pujan:element>
+                                        <Pujan:element name="Manager" type="Pujan:string" />
+                                        <Pujan:element name="PhoneNo" type="Pujan:string" />
+                                        <Pujan:element name="Email" type="Pujan:string" />
+                                    </Pujan:sequence>
+                                </Pujan:complexType>
+                            </Pujan:element>
+                            <Pujan:element name="PersonalInfo">
+                                <Pujan:complexType>
+                                    <Pujan:sequence>
+                                        <Pujan:element name="PhoneNo" type="Pujan:string" />
+                                        <Pujan:element name="Address" type="Pujan:string" />
+                                    </Pujan:sequence>
+                                </Pujan:complexType>
+                            </Pujan:element>
+                        </Pujan:sequence>
+                    </Pujan:complexType>
+                </Pujan:element>
+            </Pujan:sequence>
+        </Pujan:complexType>
+    </Pujan:element>
+</Pujan:schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pujan:schema xmlns:Pujan="http://www.w3.org/2001/XMLSchema">
+    <Pujan:element name="student">
+        <Pujan:complexType>
+            <Pujan:sequence>
+                <Pujan:element name="firstname" type="Pujan:string" />
+                <Pujan:element name="lastname" type="Pujan:string" />
+                <Pujan:element name="address" type="Pujan:string" />
+                <Pujan:element name="percentage" type="Pujan:decimal" />
+                <Pujan:element name="currentYear" type="Pujan:integer" />
+            </Pujan:sequence>
+        </Pujan:complexType>
+    </Pujan:element>
+</Pujan:schema>

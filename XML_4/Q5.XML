@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Salespeople xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Q5.XSD">
+    <Salesperson>
+        <Name>XYZ Saraniya</Name>
+        <BusinessInfo>
+            <Company>Compounders</Company>
+            <Department>Financial</Department>
+            <Manager>Pujan Saraniya</Manager>
+            <PhoneNo>+919316534408</PhoneNo>
+            <Email>pujansaraniya@compounders.co.in</Email>
+        </BusinessInfo>
+        <PersonalInfo>
+            <PhoneNo>+919316534408</PhoneNo>
+            <Address>Navrangpura , Ahmedabad</Address>
+        </PersonalInfo>
+    </Salesperson>
+</Salespeople>

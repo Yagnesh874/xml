@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Q3.XSD">
+    <StudentName>Pujan Saraniya</StudentName>
+    <PersonalInfo>
+        <Address>Navrangpura , Ahmedabad</Address>
+        <Birthdate>2004-09-15</Birthdate>
+        <Gender>Male</Gender>
+        <MobileNo>+919316534408</MobileNo>
+        <Address>Navrangpura , Ahmedabad</Address>
+    </PersonalInfo>
+    <Result>
+        <Total>900</Total>
+        <Percentage>90.00</Percentage>
+        <Grade>A</Grade>
+    </Result>
+</Student>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Q7.XSD">
+    <Item>
+        <Name>Potato Chips</Name>
+        <Category>Chips</Category>
+        <CompanyInfo>
+            <PhoneNo>+919316534408</PhoneNo>
+            <Address>Nehrunager , Ahmedabad</Address>
+        </CompanyInfo>
+    </Item>
+    <Item>
+        <Name>Chocolate Biscuits</Name>
+        <Category>Biscuits</Category>
+        <CompanyInfo>
+            <PhoneNo>+919316534408</PhoneNo>
+            <Address>Navrangpura  , Ahmedabad</Address>
+        </CompanyInfo>
+    </Item>
+</Items>

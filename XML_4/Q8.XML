@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vendors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Q8.XSD">
+    <Vendor>
+        <Name>Bharat Traders</Name>
+        <PersonalInfo>
+            <PrimaryAddress>Bopal , Ahmedabad</PrimaryAddress>
+            <SecondaryAddress>28 , Bopal , Ahmedabad</SecondaryAddress>
+            <Birthdate>2004-09-15</Birthdate>
+            <Gender>Male</Gender>
+            <Pincode>380008</Pincode>
+        </PersonalInfo>
+    </Vendor>
+    <Vendor>
+        <Name>Global Traders</Name>
+        <PersonalInfo>
+            <PrimaryAddress>Thaltej , Ahmedabad</PrimaryAddress>
+            <Birthdate>2004-09-15</Birthdate>
+            <Gender>Female</Gender>
+            <Pincode>380007</Pincode>
+        </PersonalInfo>
+    </Vendor>
+</Vendors>

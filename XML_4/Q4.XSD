@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pujan:schema xmlns:Pujan="http://www.w3.org/2001/XMLSchema">
+    <Pujan:element name="Employees">
+        <Pujan:complexType>
+            <Pujan:sequence>
+                <Pujan:element name="Employee" maxOccurs="unbounded">
+                    <Pujan:complexType>
+                        <Pujan:sequence>
+                            <Pujan:element name="EmployeeId" type="Pujan:string" />
+                            <Pujan:element name="Name" type="Pujan:string" />
+                            <Pujan:element name="Children">
+                                <Pujan:complexType>
+                                    <Pujan:choice maxOccurs="2">
+                                        <Pujan:element name="Boy">
+                                            <Pujan:complexType>
+                                                <Pujan:sequence>
+                                                    <Pujan:element name="Name" type="Pujan:string" />
+                                                    <Pujan:element name="Birthdate" type="Pujan:date" />
+                                                </Pujan:sequence>
+                                            </Pujan:complexType>
+                                        </Pujan:element>
+                                        <Pujan:element name="Girl">
+                                            <Pujan:complexType>
+                                                <Pujan:sequence>
+                                                    <Pujan:element name="Name" type="Pujan:string" />
+                                                    <Pujan:element name="Birthdate" type="Pujan:date" />
+                                                </Pujan:sequence>
+                                            </Pujan:complexType>
+                                        </Pujan:element>
+                                    </Pujan:choice>
+                                </Pujan:complexType>
+                            </Pujan:element>
+                        </Pujan:sequence>
+                    </Pujan:complexType>
+                </Pujan:element>
+            </Pujan:sequence>
+        </Pujan:complexType>
+    </Pujan:element>
+</Pujan:schema>

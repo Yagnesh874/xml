@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pujan:schema xmlns:Pujan="http://www.w3.org/2001/XMLSchema">
+    <Pujan:element name="Student">
+        <Pujan:complexType>
+            <Pujan:sequence>
+                <Pujan:element name="StudentName" type="Pujan:string" />
+                <Pujan:element name="PersonalInfo">
+                    <Pujan:complexType>
+                        <Pujan:sequence>
+                            <Pujan:element name="Address" type="Pujan:string" />
+                            <Pujan:element name="Birthdate" type="Pujan:date" />
+                            <Pujan:element name="Gender" type="Pujan:string" />
+                            <Pujan:element name="MobileNo" type="Pujan:string">
+
+                            </Pujan:element>
+                            <Pujan:element name="Address" type="Pujan:string" />
+                        </Pujan:sequence>
+                    </Pujan:complexType>
+                </Pujan:element>
+                <Pujan:element name="Result">
+                    <Pujan:complexType>
+                        <Pujan:sequence>
+                            <Pujan:element name="Total" type="Pujan:integer" />
+                            <Pujan:element name="Percentage" type="Pujan:decimal" />
+                            <Pujan:element name="Grade" type="Pujan:string" />
+                        </Pujan:sequence>
+                    </Pujan:complexType>
+                </Pujan:element>
+            </Pujan:sequence>
+        </Pujan:complexType>
+    </Pujan:element>
+</Pujan:schema>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pujan:schema xmlns:Pujan="http://www.w3.org/2001/XMLSchema">
+    <Pujan:element name="lunchMenu">
+        <Pujan:complexType>
+            <Pujan:sequence>
+                <Pujan:element name="starter">
+                    <Pujan:simpleType>
+                        <Pujan:restriction base="Pujan:string">
+                            <Pujan:enumeration value="juicer" />
+                            <Pujan:enumeration value="soup" />
+                        </Pujan:restriction>
+                    </Pujan:simpleType>
+                </Pujan:element>
+                <Pujan:element name="mainCourse">
+                    <Pujan:simpleType>
+                        <Pujan:restriction base="Pujan:string">
+                            <Pujan:enumeration value="Veg Lunch" />
+                            <Pujan:enumeration value="Non Veg Lunch" />
+                        </Pujan:restriction>
+                    </Pujan:simpleType>
+                </Pujan:element>
+                <Pujan:element name="dessert">
+                    <Pujan:simpleType>
+                        <Pujan:restriction base="Pujan:string">
+                            <Pujan:enumeration value="Ice-cream" />
+                            <Pujan:enumeration value="Fruit Salad" />
+                        </Pujan:restriction>
+                    </Pujan:simpleType>
+                </Pujan:element>
+            </Pujan:sequence>
+        </Pujan:complexType>
+    </Pujan:element>
+</Pujan:schema>
